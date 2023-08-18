@@ -1,0 +1,15 @@
+@use "../util/functions" as *;
+.toggle{
+  &_button {
+    width: rem(16);
+    height: rem(16);
+    border-radius: 50%;
+    background-color: var(--toggle);
+
+  }
+}
+
+//LEARN :you need to use 'name.scss' file with . then variables
+//in that file or use 'as *' in line 1 then you can use everything
+//E.X: if you write @use "../util/functions" as *;  width:rem(16);
+// or if you did not use as * in line 1 you need to write width: functions.rem(16);

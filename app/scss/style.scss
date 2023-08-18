@@ -1,2 +1,2 @@
-  @use 'globals';
-  @use 'components';
+  @use 'globals/_index.scss' as *;
+  @use 'components/_index.scss' as *;
