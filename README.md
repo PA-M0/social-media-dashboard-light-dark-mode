@@ -1,4 +1,4 @@
-challenge site : https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H 
+Challenge Website : https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H 
 # Functional Requirement and Notes
 social media dashboard with switcher
 Light/Dark mode toggle
