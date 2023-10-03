@@ -1,2 +1,3 @@
-@use '/app/scss/style.scss';
-
+//@use '/app/scss/globals/_index.scss' as *;
+//@use 'app/scss/components/_index.scss' as *;
+@import "../app/scss/style.scss";

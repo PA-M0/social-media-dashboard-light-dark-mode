@@ -1,15 +1,32 @@
-@use "../util/functions" as *;
-.toggle{
-  &_button {
-    width: rem(16);
-    height: rem(16);
-    border-radius: 50%;
-    background-color: var(--toggle);
+@use '../util/functions' as *;
 
+.dark{
+  background-color: (var(--dark-bg) !important);
+  color: (var(--dark-text2) !important);
+  span{
+    color: (var(--dark-text1) !important);
+  }
+  div{
+    color:var(--dark-text2)
   }
 }
+.light{
+  background-color: (var(--light-bg) !important);
+  color: (var(--light-text2) !important);
+  span{
+    color: (var(--light-text1) !important);
+  }
+  div{
+      color: var(--light-text2);
+  }
 
-//LEARN :you need to use 'name.scss' file with . then variables
-//in that file or use 'as *' in line 1 then you can use everything
-//E.X: if you write @use "../util/functions" as *;  width:rem(16);
-// or if you did not use as * in line 1 you need to write width: functions.rem(16);
+}
+
+.lightCard{
+  background-color: (var(--light-card) !important);
+  color: (var(--light-text2));
+}
+.darkCard{
+  background-color: (var(--dark-card) !important);
+  color: (var(--dark-text2));
+}

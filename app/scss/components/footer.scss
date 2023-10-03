@@ -1,0 +1,15 @@
+@use '../util/functions' as *;
+.attribution{
+  background-color: var(--light-card);
+  border-radius: rem(5);
+  height: 5rem;
+  width: 28%;
+  text-align: center;
+  margin: auto;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  a{
+    text-decoration: none;
+    color: #0a53be;
+  }
+}

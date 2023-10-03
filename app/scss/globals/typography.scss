@@ -1,6 +1,18 @@
+@use '../util/breakpoints';
+@use '../util/functions';
 h1, h2, h3{
   margin-top:0;
+  line-height: 1.1;
 }
 a, a:active, a:visited{
   text-decoration: none;
+}
+h1{
+  font-size: functions.rem(24);
+  margin-bottom: functions.rem(3);
+
+  @include breakpoints.breakpoint(large){
+    font-size: functions.rem(28);
+  }
+
 }

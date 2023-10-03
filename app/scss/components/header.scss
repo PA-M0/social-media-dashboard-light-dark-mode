@@ -1,0 +1,30 @@
+@use '../util/breakpoints'as *;
+@use '../util/functions'as *;
+
+.header{
+  margin-top: rem(36);
+  @include breakpoint(large) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title{
+
+      width: 100%;
+
+      @include breakpoint(medium) {
+        width: auto;
+      }
+    }
+
+
+  &__subtitle{
+    font-size: rem(14);
+    font-weight: 700;
+    color: var(--dark-txt1);
+  }
+  &__toggle{
+  display: inline-block;
+  }
+}
